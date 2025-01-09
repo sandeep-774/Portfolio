@@ -1,0 +1,339 @@
+@media (max-width:600px){
+    .name{
+     /* font-size: 0.5rem; */
+     font-size: 1rem;
+     left: 33%;
+     top: 8%;
+    }
+    .menu p{
+     font-size: 0.9rem;
+     margin: 0;
+     margin-left: 10px;
+    }
+    .menu{
+     left: 3%;
+     top: 55%;
+    }
+ }
+ @media (max-width:600px){
+    main{
+        height: 350px;
+    }
+    main div{
+        margin: 0;
+    }
+    .describe{
+        left: 5%;
+        top: 15%;
+    }
+    .describe h1{
+        font-size: 2rem;
+        margin: 5px;
+    }
+    .describe h2{
+        font-size: 1.2rem;
+        margin: 5px;
+    }
+    .describe h3{
+        font-size: 0.7rem;
+        margin: 5px;
+    }
+    .c{
+       margin: 0;
+       margin-top: 5px;
+       /* margin-left: 10px; */
+    }
+    .s{
+        width: 30px;
+        height: 30px;
+        border-radius: 50%;
+        margin: 0px;
+        margin-right: 15px;
+        color:  rgb(18, 201, 237);
+        font-size: 1.3rem;
+    }
+    .describe    button{
+        display: flex;
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+        width: 80px;
+        height: 30px;
+        border-radius: 20px;
+        border: none;
+        font-size: 1rem;
+        background-color: rgb(18, 201, 237);
+        box-shadow: 0px 0px 5px 2px rgb(35, 78, 87) ;
+        margin-top: 20px;
+        margin-left: 10px;
+    }
+    .pic img{
+        position: absolute;
+        width: 100px;
+        border-radius: 50%;
+        top: 12%;
+        right: 15%;
+    }
+} 
+
+@media (max-width:600px){
+    .education{
+        height: 960px;
+    }
+    .education h1{
+        font-size: 3rem;
+        margin: 10px;
+    }
+    .year .p1{
+        left: 33%;
+        top: 72%;
+    }
+    .year .p2{
+        left: 55%;
+        top: 96%;
+    }
+    .year .p3{
+        left: 33%;
+        top: 120%;
+    }
+    .year .p4{
+        left: 55%;
+        top: 144%;
+    }
+    .year .p5{
+        left: 28%;
+        top: 168%;
+    }
+    .qualification{
+        display: flex;
+        flex-direction: column;
+        align-items: flex-end;
+        gap: 10px;
+        justify-content: center;
+        position: absolute;
+        padding: 5px;
+        width: 175px;
+        height: 170px;
+        border: 1px solid rgb(18, 201, 237);
+        border-radius: 20px;
+    }
+    .qualification p{
+        font-size: 0.8rem;
+    }
+    .point{
+        width: 20px;
+        height: 20px;
+        border-radius: 50%;
+        background-color: rgb(18, 201, 237);
+        margin-top: 70px;
+        margin-bottom: 100px;
+        margin-left: 2px;
+    }
+    .qualification:hover{
+        box-shadow: 0px 0px 10px 5px rgb(18, 201, 237);
+    }
+    #q1{
+        top: 53%;
+        left: 3%;
+    }
+    #q2{
+        top: 77%;
+        left: 53%;
+    }
+    #q3{
+        top: 102%;
+        left: 3%;
+    }
+    #q4{
+        top: 126%;
+        left: 53%;
+    }
+    .highschool{
+        align-items: flex-start;
+        gap: 8px;
+        margin-left: 5px;
+    }
+    .intermediate{
+        align-items: flex-start;
+        gap: 8px;
+        margin-left: 5px;
+    }
+    .graduation{
+        align-items: flex-end;
+        gap: 8px;
+        margin-left: 5px;
+    }
+    .skills{
+        align-items: flex-start;
+        gap: 8px;
+        margin-left: 5px;
+    }
+    .line{
+        width: 4px;
+        height: 812px;
+        position: absolute;
+        left: 49.85%;
+        margin-top: 130px;
+        background-color: rgb(18, 201, 237);
+    }
+}
+@media (max-width:600px){
+    .services{
+        height: 780px;
+        background-color: rgb(202, 211, 211);
+    }
+    .services h1{
+        font-size: 3rem;
+        text-align: center;
+        margin: 0px; 
+    }
+    .service{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        grid-gap: 15px;
+        margin-top: 20px;
+        grid-template-columns: auto auto;
+        
+    }
+    .service .box{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        width: 350px;
+        height: 150px;
+        border: 1px solid  rgb(18, 201, 237);
+        background-color: rgb(140, 222, 238);
+        padding: 10px;
+    }
+    .box h2{
+        margin-left: 0px;
+        font-size: 1.2rem;
+    }
+    .box p{
+        font-size: 0.8rem;
+        margin-left: 0px;
+    }
+}
+
+@media (max-width:600px){
+    .teamCoder{
+        height: 430px;
+        background-color: rgb(222, 222, 222);
+    }
+    .teamCoder h1{
+        font-size: 2.1rem;
+        text-align: center;
+        padding: 20px;
+    }
+    .coderteam{
+        display: flex;
+        justify-content: center;
+        margin: 0px;
+    }
+    .coder{
+        width: 120px;
+        height: 280px;
+        margin: 4px;
+        padding: 0px;
+        gap: 0px;
+    }
+    .coder h2{
+        margin-top: 10px;
+        font-size: 1rem;
+        text-align: center;
+    }
+    .coder h3{
+        text-align: center;
+        font-size: 0.9rem;
+        margin-top: 5px;
+    }
+    .coder p{
+        margin-top: 10px;
+        text-align: center;
+        font-size: 0.5rem;
+    }
+    .coder img{
+        width: 80px;
+        margin: 5px;
+        margin-top: 15px;
+    }
+}
+@media (max-width:600px){
+    .contact{
+        height: 450px;
+        background-color: antiquewhite;
+    }
+    .contact h1{
+        font-size: 3rem;
+        text-align: center;
+        padding: 20px;
+    }
+    
+    form{
+        display: flex;
+        justify-content: center;
+        gap: 10px;
+    }
+    form input{
+        width: 180px;
+        height: 30px;
+        border-radius: 8px;
+        font-size: 1rem;
+        padding: 3px;
+        margin-left: 0px;
+    }
+    form  .first{
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+        margin-top: 20px;
+    }
+    form  .second{
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+    }
+    
+    textarea{
+        width: 140px; 
+        height: 190px;
+        border: 2px solid rgb(18, 201, 237);
+        border-radius: 10px;
+        font-size: 1rem;
+        padding: 10px; 
+        margin-top: 16px;
+    }
+    .second button{
+        display: flex;
+        position: absolute;
+        left: 32%;
+        top: 374%;
+        width: 140px; 
+        border-radius: 8px;
+        font-size: 1rem;
+        padding: 10px;
+        margin-left: 0px;
+        box-shadow: 0px 0px 5px 1px  rgb(18, 201, 237);
+    }
+}
+@media (max-width:600px){
+    footer{
+        height: 130px;
+        background-color: rgb(222, 222, 222) ;
+    }
+    
+    .footer .f{
+        gap: 20px;
+        font-size: 1rem;
+        margin-top: 10px;
+    }
+    .footer .s{
+        margin-top: 10px;
+    }
+    .footer .last{
+        font-size: 0.8rem;
+       margin-top: 10px;
+    }
+}
