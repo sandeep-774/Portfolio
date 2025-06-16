@@ -9,10 +9,11 @@ header p{
 }
 header{
     height: 80px;
-    background-color: rgb(40, 37, 37);
+    background-color: #333;
     display: flex;
     position: sticky;
     z-index: 1;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.2);
 }
 
 span{
@@ -23,8 +24,8 @@ span{
     position: absolute;
     left: 10%;
     /* margin-left: 130px; */
-    font-size: 1.8rem;
-    font-weight: bold;
+    font-size: 2.2rem;
+   font-weight: bold;
 }
 .sandeep{
     color: rgb(18, 201, 237);
@@ -58,11 +59,12 @@ span{
 .menu p:hover{
     color:  rgb(18, 201, 237);
     text-decoration: underline;
+    background-color: rgba(0, 0, 0, 0.1);
 }
 
 main{
     height: 649px;
-    background-color: whitesmoke;
+    background-color: #f5f5f5;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -77,18 +79,18 @@ main{
     flex-direction: column;
     position: absolute;
     left: 10%;
-    border: 1px solid white;
+    /* border: 1px solid white; */
 }
 .describe h1{
-    font-size: 2.8rem;
+    font-size: 2.5rem;
     margin: 5px;
 }
 .describe h2{
-    font-size: 2rem;
+    font-size: 1.8rem;
     margin: 5px;
 }
 .describe h3{
-    font-size: 1.3rem;
+    font-size: 1.1rem;
     margin: 5px;
 }
 .pic img{
@@ -125,7 +127,7 @@ main{
     margin: 0px;
     margin-right: 25px;
     color:  rgb(18, 201, 237);
-    font-size: 1.3rem;
+    font-size: 1.5rem;
 }
 .s:hover{
     background-color: rgb(18, 201, 237);
@@ -155,148 +157,93 @@ a{
 .education{
     display: flex;
     flex-direction: column;
-    height: 950px;
+    align-items: center;
+    height: auto;
     background-color: rgb(222, 222, 222);
     margin: 0;
 }
 
+
 .education h1{
-    font-size: 3.5rem;
+    font-size: 3rem;
     text-align: center;
     margin: 10px;
 }
 
-.line{
-    width: 4px;
-    height: 770px;
-    position: absolute;
-    left: 49.85%;
-    margin-top: 130px;
-    background-color: rgb(18, 201, 237);
-}
 
-.points{
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
-    align-items: center;
-}
-
-.point{
-    width: 20px;
-    height: 20px;
-    border-radius: 50%;
-    background-color: rgb(18, 201, 237);
-    margin-top: 60px;
-    margin-bottom: 100px;
-}
-
-.year p{
-    position: absolute;
-    font-size: 1.3rem;
-    font-weight: bold;
-}
-.year .p1{
-    left: 45%;
-    top: 122.3%;
-}
-.year .p2{
-    left: 52.4%;
-    top: 147.4%;
-}
-.year .p3{
-    left: 45%;
-    top: 172.6%;
-}
-.year .p4{
-    left: 52.4%;
-    top: 197.7%;
-}
-.year .p5{
-    left: 43.7%;
-    top: 223%;
-}
-
-.qualification{
+.qualification {
     display: flex;
     flex-direction: column;
-    align-items: flex-end;
     gap: 10px;
     justify-content: center;
-    position: absolute;
-    /* margin: 20px; */
-    padding: 10px;
-    margin-top: 180px;
-    width: 550px;
-    height: 100px;
+    align-items: center;
+    position: relative; /* Changed to relative positioning */
+    padding: 15px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    width: 50%;
+    height: 200px;
+    /* left: 5%; Centering the qualifications */
     border: 1px solid rgb(18, 201, 237);
     border-radius: 20px;
     font-size: 0.8rem;
 }
-.qualification:hover{
+
+.qualification:hover {
     box-shadow: 0px 0px 10px 5px rgb(18, 201, 237);
 }
-.qualification p{
-    font-size: 1.06rem;
-}
-#q1{
-    top: 103%;
-    left: 8%;
-}
-#q2{
-    align-items: flex-start;
-    top: 128%;
-    left: 55%;
-}
-#q3{
-    top: 153%;
-    left: 8%;
-}
-#q4{
-    align-items: flex-start;
-    top: 179%;
-    left: 55%;
-}
-.highschool{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: flex-end;
-    gap: 10px;
-    margin-right: 30px;
-}
-.intermediate{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: flex-start;
-    gap: 10px;
-    margin-left: 30px;
-}
-.graduation{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: flex-end;
-    gap: 10px;
-    margin-right: 30px;
-}
-.skills{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: flex-start;
-    gap: 10px;
-    margin-left: 30px; 
+
+.qualification p {
+    font-size: 1.1rem;
+    line-height: 1.2;
 }
 
+.highschool {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    margin-right: 30px;
+    text-align: center;
+}
+
+.intermediate {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    margin-left: auto;
+    margin-right: 0;
+    text-align: center;
+}
+
+.graduation {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    margin-right: 30px;
+    text-align: center;
+}
+.skills-section{
+    height: 400px;
+}
+.skills-section h1{
+    margin: 40px;
+}
+.skill{
+    margin-top: 40px;
+}
 .services{
     height: 800px;
 }
 .services h1{
-    font-size: 3.5rem;
+    font-size: 3rem;
     text-align: center;
-    margin: 30px; 
+    margin: 30px;
 }
 .service{
     display: grid;
@@ -335,7 +282,7 @@ a{
     background-color: rgb(222, 222, 222);
 }
 .teamCoder h1{
-    font-size: 3.5rem;
+    font-size: 3rem;
     text-align: center;
     padding: 60px;
 }
@@ -377,7 +324,7 @@ a{
     align-items: center;
 }
 .contact h1{
-    font-size: 3.5rem;
+    font-size: 3rem;
     text-align: center;
     padding: 60px;
 }
@@ -398,11 +345,17 @@ form  .first{
     display: flex;
     flex-direction: column;
     gap: 30px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
 }
 form  .second{
     display: flex;
     flex-direction: column;
     gap: 20px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
 }
 
 textarea{
@@ -450,4 +403,306 @@ footer{
 .footer .last{
     font-size: 1.2rem;
    margin-top: 20px;
+}
+
+@media (max-width: 768px) {
+    /* Styles for mobile devices */
+    header {
+        height: auto;
+        width: 100vw;
+        padding: 10px 0;
+    }
+
+    .header {
+        width: 100%;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .name {
+        position: static;
+        text-align: center;
+        margin-bottom: 10px;
+        left: auto;
+    }
+
+    .menu {
+        position: static;
+        /* flex-direction: column; */
+        align-items: center;
+        left: auto;
+    }
+
+    .menu p {
+        /* margin: 10px 0; */
+        font-size: 1.09rem;
+        margin: 3px;
+    }
+
+    main {
+        flex-direction: column;
+        height: auto;
+    }
+
+    .main {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .pic {
+        order: -1;
+        position: static;
+        width: 100%;
+        text-align: center;
+        right: auto;
+        top: auto;
+    }
+
+    .pic img {
+        width: 60%;
+        max-width: 300px;
+        position: static;
+        margin-top: 20px;
+    }
+
+    .describe {
+        order: 1;
+        position: static;
+        width: 90%;
+        margin: 20px auto;
+        text-align: center;
+        left: auto;
+    }
+
+    .describe h1 {
+        font-size: 2rem;
+    }
+
+    .describe h2 {
+        font-size: 1.5rem;
+    }
+
+    .describe h3 {
+        font-size: 1rem;
+    }
+
+    .c {
+        justify-content: center;
+    }
+    .describe    button{
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+    }
+    .line {
+        display: none;
+    }
+
+    .year p {
+       display: none;
+    }
+
+    .qualification {
+        position: static;
+        width: 90%;
+        height: auto;
+        margin: 20px auto;
+        align-items: center !important;
+        left: auto;
+        align-items: center;
+    }
+    .points{
+        display: none;
+    }
+
+    .highschool,
+    .intermediate,
+    .graduation{
+        align-items: center !important;
+        margin: 0;
+    }
+     .highschool, .intermediate, .graduation,.skills{
+        text-align: center;
+    }
+    .skills-section{
+    height: auto;
+    }
+    .skills-section h1{
+    margin: 40px;
+    }
+    .skill{
+    margin-top: 0;
+    }
+    .services {
+        height: auto;
+        margin-bottom: 50px;
+    }
+
+    .services h1 {
+        font-size: 3rem;
+        margin: 0px;
+        margin-top: 60px;
+    }
+
+    .service {
+        grid-template-columns: 1fr;
+    
+    }
+
+    .service .box {
+        width: 90%;
+        margin: 0 auto;
+    }
+
+    .box h2 {
+        font-size: 1.5rem;
+        margin-left: 20px;
+    }
+
+    .box p {
+        font-size: 1rem;
+        margin-left: 20px;
+    }
+
+    .teamCoder {
+        height: auto;
+    }
+
+    .teamCoder h1 {
+        font-size: 2.5rem;
+        padding: 10px;
+        padding-top: 50px;
+    }
+
+    .coderteam {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .coder {
+        width: 80%;
+        max-width: 400px;
+    }
+
+    .contact {
+        height: auto;
+    }
+
+    .contact h1 {
+        font-size: 2.5rem;
+        padding: 30px;
+       
+    }
+
+    form {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    form input{
+        width: 350px;
+        height: 40px;
+        border-radius: 5px;
+    }
+    textarea{
+        width: 350px;
+    }
+    button {
+        margin: 0 auto;
+        margin: 30px;
+    }
+
+    footer {
+        height: auto;
+    }
+
+    .footer .f {
+        flex-direction: row;
+        align-items: center;
+        gap: 10px;
+    }
+
+    .footer .f p {
+        font-size: 1rem;
+        margin-left: 10px;
+    }
+
+    .footer .last {
+        text-align: center;
+        margin-bottom: 20px;
+    }
+    .footer .last p{
+        margin-bottom: 20px;
+        font-size: 1rem;
+    }
+}
+
+@media (min-width: 769px) and (max-width: 1024px) {
+    /* Styles for tablets */
+    .menu {
+        left: 60%;
+    }
+
+    .describe {
+        left: 5%;
+    }
+
+    .pic img {
+        right: 5%;
+    }
+
+    .service {
+        grid-template-columns: 1fr 1fr;
+    }
+
+    .service .box {
+        width: 90%;
+    }
+}
+
+.skills-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    background-color: #f0f0f0;
+}
+
+.skills-section h1 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+}
+
+.skill-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+
+.skill {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #fff;
+    padding: 15px;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease-in-out;
+}
+
+.skill:hover {
+    transform: translateY(-5px);
+}
+
+.skill i {
+    font-size: 2rem;
+    margin-bottom: 10px;
+    color: #3498db;
+}
+
+.skill span {
+    font-size: 1.2rem;
+    color: #333;
 }
