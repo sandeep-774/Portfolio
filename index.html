@@ -9,7 +9,6 @@
         integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="style1.css">
     <script src="script.js"></script>
 </head>
 
@@ -25,7 +24,7 @@
                 </span>
             </div>
             <div class="menu">
-                <p><a href="">Home</a></p>
+                <p><a href="#h">Home</a></p>
                 <p><a href="#e">Education</a></p>
                 <p><a href="#ser">Service</a></p>
                 <p><a href="#t">MyTeamCoder</a></p>
@@ -34,7 +33,7 @@
         </div>
     </header>
     <main>
-        <div class="main">
+        <div class="main" id="h">
             <div class="describe">
                 <h1>Hi, It's <br><span>Sandeep</h1>
                 <h2>I'm a <span>web Designer & java Developer</span></h2>
@@ -56,7 +55,9 @@
                         <div class="s"><i class="fa-brands fa-facebook"></i></div>
                     </a>
                 </div>
-                <button><a href="#co">Hire</a></button>
+                <div class="b">
+                    <button><a href="#co">Hire</a></button>
+                </div>
             </div>
             <div class="pic">
                 <img src="./Images/pic1.jpg" alt="reload">
@@ -65,85 +66,144 @@
     </main>
     <div class="education" id="e">
         <h1>Education</h1>
-        <div class="year">
-            <p class="p1">2021</p>
-            <p class="p2">2023</p>
-            <p class="p3">2024</p>
-            <p class="p4">2025</p>
-            <p class="p5">Future</p>
-        </div>
         <div class="qualification" id="q1">
             <div class="highschool">
-                <h2>High School</h2>
-                <p>I have completed high school from M.J.P Inter College</p>
-                <p>Mundhapandey in the year 2021.</p>
+                <h2><i class="fa fa-book"></i></i> High School</h2>
+                <p>I completed my high school education at M.J.P Inter College Mundhapandey in 2021, achieving a commendable score in all subjects.</p>
             </div>
         </div>
         <div class="qualification" id="q2">
             <div class="intermediate">
-                <h2>Intermediate</h2>
-                <p>I hava completed 12th from M.J.P. Inter College</p>
-                <p>Mundhapandey in 2023.</p>
+                <h2><i class="fa fa-university"></i> Intermediate</h2>
+                <p>I completed my intermediate education at M.J.P. Inter College Mundhapandey in 2023, with a focus on science and mathematics.</p>
             </div>
         </div>
         <div class="qualification" id="q3">
             <div class="graduation">
-                <h2>Graduation B.TECH</h2>
-                <P>Currently I am student of B.Tech(CS) in I.F.T.M. University Moradabad.</P>
-                <p>I shall completed my Graduation in 2027.</p>
+                <h2><i class="fa fa-graduation-cap"></i> B.Tech in Computer Science</h2>
+                <P>I am currently pursuing a B.Tech degree in Computer Science at I.F.T.M. University Moradabad, with an expected graduation date in 2027. My coursework includes data structures, algorithms, and software engineering.</P>
             </div>
         </div>
-        <div class="qualification" id="q4">
-            <div class="skills">
-                <h2>Skills</h2>
-                <p>Core Java, OOPs, Collection framework, HTML, CSS, JS</p>
+        </div>
+    </div>
+    <div class="skills-section" id="skills">
+        <h1>Skills</h1>
+        <div class="skill-list">
+            <div class="skill">
+                <i class="fa-brands fa-java"></i>
+                <span>Java</span>
             </div>
-        </div>
-        <div class="points">
-            <div class="point"></div>
-            <div class="point"></div>
-            <div class="point"></div>
-            <div class="point"></div>
-            <div class="point"></div>
-        </div>
-        <div class="line">
+            <div class="skill">
+                <i class="fa fa-code"></i>
+                <span>DSA</span>
+            </div>
+            <div class="skill">
+                <i class="fa fa-database"></i>
+                <span>JDBC</span>
+            </div>
+            <div class="skill">
+                <i class="fa fa-server"></i>
+                <span>Servlet</span>
+            </div>
+            <div class="skill">
+                <i class="fa-brands fa-html5"></i>
+                <span>HTML</span>
+            </div>
+            <div class="skill">
+                <i class="fa-brands fa-css3"></i>
+                <span>CSS</span>
+            </div>
+            <div class="skill">
+                <i class="fa fa-c"></i>
+                <span>C</span>
+            </div>
+            <div class="skill">
+                <i class="fa fa-database"></i>
+                <span>MySQL</span>
+            </div>
+            <div class="skill">
+                <i class="fa fa-code"></i>
+                <span>OOPs</span>
+            </div>
         </div>
     </div>
     <div class="services" id="ser">
         <h1>Services</h1>
         <div class="service">
-            <div class="box"><h2>UI Design</h2><p>User interface (UI) design is likely the first thing you encounter when you use an application or visit a website. User interface design is responsible for a  product's appearance, interactivity, usability, behaviour, and overall feel.</p></div>
-            <div class="box"><h2>Frontend Developer</h2><p>A Front-End Developer is someone eho creates websites and web application. The differnce between Front-End and Back-End is that Front-End refers to how a web page looks, while Back-End refers to how it works.
-            </p></div>
-            <div class="box"><h2>Backend Developer</h2><p>Back-end developer are the experts who build and maintains the mechanism that process data and perform action on websites. Unlike front-end developers, who control everything you can see on a website, backend developers are involved in data storage, security, and other side function that you cannot see. </p></div>
-            <div class="box"><h2>Testing</h2><p>A testor is the person responsible for trying out all the different usage scenarios for an appplication in order to ensure that it works as expected. The tester reports back to the development team listing the bugs that were discovered and what series of actions led to<br> that particular error.</p></div>
+            <div class="box">
+                <h2>UI Design</h2>
+                <p>User interface (UI) design is likely the first thing you encounter when you use an application or
+                    visit a website. User interface design is responsible for a product's appearance, interactivity,
+                    usability, behaviour, and overall feel.</p>
+            </div>
+            <div class="box">
+                <h2>Frontend Developer</h2>
+                <p>A Front-End Developer is someone eho creates websites and web application. The differnce between
+                    Front-End and Back-End is that Front-End refers to how a web page looks, while Back-End refers to
+                    how it works.
+                </p>
+            </div>
+            <div class="box">
+                <h2>Backend Developer</h2>
+                <p>Back-end developer are the experts who build and maintains the mechanism that process data and
+                    perform action on websites. Unlike front-end developers, who control everything you can see on a
+                    website, backend developers are involved in data storage, security, and other side function that you
+                    cannot see. </p>
+            </div>
+            <div class="box">
+                <h2>Testing</h2>
+                <p>A testor is the person responsible for trying out all the different usage scenarios for an
+                    appplication in order to ensure that it works as expected. The tester reports back to the
+                    development team listing the bugs that were discovered and what series of actions led to<br> that
+                    particular error.</p>
+            </div>
         </div>
     </div>
 
     <div class="teamCoder" id="t">
         <h1>My Team Coder</h1>
         <div class="coderteam">
-        <div class="coder"><img src="./Images/team1.jpg" alt="reload"><h2>Akash Lodhi</h2><h3>⭐⭐⭐⭐⭐</h3><p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint voluptatem sed eius labore, et aliquid quaerat atque, officia magni, a sapiente voluptates nesciunt accusamus ducimus provident beatae adipisci soluta alias!</p></div>
-        <div class="coder"><img src="./Images/team2.jpg" alt="reload"><h2>Shubham Thakur</h2><h3>⭐⭐⭐⭐⭐</h3><p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint voluptatem sed eius labore, et aliquid quaerat atque, officia magni, a sapiente voluptates nesciunt accusamus ducimus provident beatae adipisci soluta alias!</p></div>
-        <div class="coder"><img src="./Images/team3.jpg" alt="reload"><h2>Prashant Chauhan</h2><h3>⭐⭐⭐⭐⭐</h3><p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint voluptatem sed eius labore, et aliquid quaerat atque, officia magni, a sapiente voluptates nesciunt accusamus ducimus provident beatae adipisci soluta alias!</p></div>
-    </div>
+            <div class="coder"><img src="./Images/team1.jpg" alt="reload">
+                <h2>Akash Lodhi</h2>
+                <h3>⭐⭐⭐⭐⭐</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint voluptatem sed eius labore, et aliquid
+                    quaerat atque, officia magni, a sapiente voluptates nesciunt accusamus ducimus provident beatae
+                    adipisci soluta alias!</p>
+            </div>
+            <div class="coder"><img src="./Images/team2.jpg" alt="reload">
+                <h2>Shubham Thakur</h2>
+                <h3>⭐⭐⭐⭐⭐</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint voluptatem sed eius labore, et aliquid
+                    quaerat atque, officia magni, a sapiente voluptates nesciunt accusamus ducimus provident beatae
+                    adipisci soluta alias!</p>
+            </div>
+            <div class="coder"><img src="./Images/team3.jpg" alt="reload">
+                <h2>Prashant Chauhan</h2>
+                <h3>⭐⭐⭐⭐⭐</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint voluptatem sed eius labore, et aliquid
+                    quaerat atque, officia magni, a sapiente voluptates nesciunt accusamus ducimus provident beatae
+                    adipisci soluta alias!</p>
+            </div>
+        </div>
     </div>
 
     <div class="contact" id="co">
         <h1>Contact <span>Me</span></h1>
-    
+
         <div class="form">
-            <form action="mailto:sandeep231ee@gmail.com" method="post" enctype="multipart/form-data" onsubmit="return sendForm()">
+            <form action="mailto:sandeep231ee@gmail.com" method="post" enctype="multipart/form-data"
+                onsubmit="return sendForm()">
                 <div class="first">
                     <input type="text" name="fullName" id="fullName" placeholder="Full Name" required>
                     <input type="email" name="email" id="email" placeholder="Email" required>
-                    <input type="tel" name="phoneNumber" id="phoneNumber" placeholder="Phone Number" pattern="[0-9]{10}" required>
+                    <input type="tel" name="phoneNumber" id="phoneNumber" placeholder="Phone Number" pattern="[0-9]{10}"
+                        required>
                     <input type="text" name="subject" id="subject" placeholder="Subject" required>
                 </div>
                 <div class="second">
-                <textarea name="message" id="message" placeholder="Your Messages" required></textarea>
-                <button type="submit">Send Message</button>
-            </div>
+                    <textarea name="message" id="message" placeholder="Your Messages" required></textarea>
+                    <button type="submit">Send Message</button>
+                </div>
             </form>
         </div>
     </div>
